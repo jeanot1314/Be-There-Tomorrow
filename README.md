@@ -17,29 +17,27 @@ Even if open source projects try to answer these problems, it is difficult to ma
 
 Current works :
 So many things on test! 
---Test many different gaz sensors (carbon monoxyde, hydrogen, methane... anything possible!) to check reaction with commercial pesticide. 
---Testing communication solutions. We already made the chip Lora Murata work on a CMWX1ZZABZ with a public gateway. But we need to be sure they are now enough ultra wide band gateway to cover most of the lands. 
---We need more contacts with bee keepers as any advices can be priceless! 
---We have to continue the embedded software implementation. We added a FreeRTOS on the STM32L4 to improve the compatibility, so adding new sensors shouldn’t be a problem. 
---The box. We have to meet more beekeepers to decide the material we will use… When all this will work, it should be a good start for the 1.0 prototype! :-)
+* Test many different gaz sensors (carbon monoxyde, hydrogen, methane... anything possible!) to check reaction with commercial pesticide. 
+* Testing communication solutions. We already made the chip Lora Murata work on a CMWX1ZZABZ with a public gateway. But we need to be sure they are now enough ultra wide band gateway to cover most of the lands. 
+* We need more contacts with bee keepers as any advices can be priceless! 
+* We have to continue the embedded software implementation. We added a FreeRTOS on the STM32L4 to improve the compatibility, so adding new sensors shouldn’t be a problem. 
+* The box. We have to meet more beekeepers to decide the material we will use… When all this will work, it should be a good start for the 1.0 prototype! :-)
 
 Current needs :
-We are going to need some electronic development board : 
-ST Murata for Lora testing 
-Solar Panel + energie controler
-Lipo battery 
-3G board
-STM32L4 dev board for energy saving test (sleeping mode are 10 times better than most Arduino board) 
-9DOF (degree of freedom) Invensense sensors for movement detection 
-Probably few FSR sensors 
-Chemical sensors testing to try to detect some néonicotinoids 
-Small distance communication (in case of star topology with 3G modem) (Enocean, Bluetooth Low Energie NORDIC) 
-3D printer access for the waterproof design 
-Buy some Lora Gateway datas (or SIM card if 3G is choosen) 
-Probably a "Dadant" hives (the most present in my area) for integration tests
-
-
->>>Possibly a Raspberry Pi camera or TOF sensors to monitor the hive inputs and outputs. But this would pose consumption problems
+* We are going to need some electronic development board : 
+* ST Murata for Lora testing 
+* Solar Panel + energie controler
+* Lipo battery 
+* 3G board
+* STM32L4 dev board for energy saving test (sleeping mode are 10 times better than most Arduino board) 
+* 9DOF (degree of freedom) Invensense sensors for movement detection 
+* Probably few FSR sensors 
+* Chemical sensors testing to try to detect some néonicotinoids 
+* Small distance communication (in case of star topology with 3G modem) (Enocean, Bluetooth Low Energie NORDIC) 
+* 3D printer access for the waterproof design 
+* Buy some Lora Gateway datas (or SIM card if 3G is choosen) 
+* Probably a "Dadant" hives (the most present in my area) for integration tests
+* Possibly a Raspberry Pi camera or TOF sensors to monitor the hive inputs and outputs. But this would pose consumption problems
 
 
 
